@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-font: 'bebas neue', serif;
+  --border-color: rgba(0, 0, 0, 1);
+  --secondary-font: "roboto mono", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 48px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+nav h1 {
+  font: 400 42px/42px var(--primary-font);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font: 400 28px/32px var(--primary-font);
+}
+
+#hero-section {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+#hero-section h1 {
+  text-align: center;
+  font: 400 120px/120px var(--primary-font);
+}
+
+#hero-section img{
+  width: 100%;
+  border-radius: 56px;
+}
+
+.gallery-row-1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 48px;
+  gap: 48px;
+}
+
+.gallery-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 48px 48px 48px;
+  gap: 48px;
+}
+
+.card img {
+  width: 416px;
+}
+
+.card-details h1{
+  font: 400 20px/24px var(--secondary-font);
+}
+
+.card-details p{
+  font: 400 17px/24px var(--secondary-font);
+}
+
+#about-section {
+  padding: 96px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-section h1 {
+  text-align: center;
+  width: 900px;
+  font: 400 48px/52px var(--primary-font);
+}
+
+#skills-section {
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  gap: 48px;
+}
+
+#skills-section h1 {
+  font: 400 28px/32px var(--primary-font);
+}
+
+#skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+  gap: 16px;
+}
+
+#skills-container div>p{
+  font: 400 20px/24px var(--secondary-font);
+  width: 300px;
+}
+
+#contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 254px;
+  padding-bottom: 200px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+#contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+}
+
+#contact-container div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-direction: column;
+  text-align: center;
+}
+
+#contact-container h1 {
+  font: 400 64px/68px var(--primary-font);
+}
+
+#contact-container p {
+  font: 400 24px/32px var(--secondary-font);
+}
+
+#contact-container button {
+  padding: 12px 24px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 8px;
+  font: 400 20px/24px var(--secondary-font);
+  color: #fff;
+}
+
+footer {
+  padding: 96px 48px 24px 48px;
+}
+
+footer div{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div>h1 {
+  font: 400 28px/32px var(--primary-font);
+}
+
+footer div>button {
+  font: 400 20px/24px var(--secondary-font);
+  padding: 12px 24px;
+  background-color: inherit;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
